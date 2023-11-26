@@ -509,6 +509,8 @@ letter-spacing: 0.64px;
 
 .project {
     overflow: hidden;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
 }
 
 .project-image {
@@ -535,6 +537,17 @@ letter-spacing: 0.64px;
 
 .project-caption p {
     color: black;
+    display: flex;
+
+}
+
+.project-caption  {
+padding: 0px 16px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
 }
 
 .portfolio-footer {
